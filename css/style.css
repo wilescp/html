@@ -224,3 +224,38 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
 }
+
+.hireme {
+text-align: center;
+}
+
+.main-footer {
+  height: 80px;
+  padding-top: 20px;
+}
+
+.main-footer p{
+  float: left;
+}
+
+.main-footer ul{
+  float: right;
+  list-style: none;
+}
+
+.main-footer ul li {
+  float: left;
+}
+
+.main-footer ul li i {
+  color: var(--primary-color);
+  font-size: 20 px;
+}
+
+.main-footer ul li a {
+
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
