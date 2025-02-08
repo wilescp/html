@@ -259,3 +259,55 @@ text-align: center;
   text-align: center;
 }
 
+.card-info {
+  display: grid; /* Define el contenedor como una cuadrícula */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  gap: 20px; /* Espacio de 20px entre filas y columnas */
+  text-align: center;
+}
+
+.form-map {
+  margin: 30px;
+  display: grid; /* Define el contenedor como una cuadrícula */
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
+  gap: 20px;
+}
+
+.form-map iframe {
+  height: 400px;
+  width: 100%;
+}
+
+.box-form .input-form {
+  margin-bottom: 20px;
+}
+
+.box-form input,
+.box-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px var(--secondary-color) solid;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+.box-form input:focus,
+.box-form textarea:focus {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.box-form textarea {
+  height: 200px;
+}
+
+.box-form input:focus,
+.box-form textarea:focus {
+  outline: none;
+  border-color: var(--main-color);
+}
+
+.box-form button {
+  width: 100%;
+}
