@@ -344,3 +344,35 @@ text-align: center;
   border: 2px solid var(--secondary-color);
   transition: 0.3s;
 }
+
+.single-project-info {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Una fila para arriba, dos filas iguales para las columnas en el medio, y una fila para abajo */
+  grid-template-columns: 1fr 1fr; /* Dos columnas para las secciones izquierda y derecha */
+  grid-gap: 20px;
+}
+
+.single-project-description,
+.single-project-btn {
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.single-project-img img {
+  width: 100%;
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+}
+
+.single-project-details ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.single-project-btn .prev {
+  float: left;
+}
+
+.single-project-btn .next {
+  float: right;
+}
